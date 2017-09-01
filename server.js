@@ -26,6 +26,12 @@ finally {
     console.log('this code runs regardless of whether the above code succeeded or failed')
 }
 
+var httpApp = express()
+httpApp.get('/', function(req, res){
+    res.redirect('https://thepasswordisdragons.com')
+})
+httpApp.listen(80)
+
 // port 80 is the default port for HTTP traffic.
 // var httpServer = HTTP.createServer(app)
 // httpServer.listen(80)
