@@ -27,5 +27,5 @@ finally {
 }
 
 // port 80 is the default port for HTTP traffic.
-var httpServer = HTTP.createServer(app)
-httpServer.listen(80)
+// var httpServer = HTTP.createServer(app)
+// httpServer.listen(80)
